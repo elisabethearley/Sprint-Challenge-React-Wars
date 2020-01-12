@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import CharacterComponent from './components/CharacterComponent';
+import CharacterComponent, {ContainerDiv} from './components/CharacterComponent';
 
 export default function App() {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -29,11 +29,11 @@ export default function App() {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <div>
+      <ContainerDiv>
         {characters.map((item, index) => {
-          return <CharacterComponent key={`${item.name}-${index}`} character={item} eye_color={item.eye_color} />
+          return <CharacterComponent key={`${item.name}-${index}`} character={item} traits={item} />
         })}
-      </div>
+      </ContainerDiv>
     </div>
   );
 }
