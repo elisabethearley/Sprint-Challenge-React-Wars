@@ -26,20 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-ReactJS is a solution for large scale web applications. It allows the state of data on a page to be changed without constantly having to refresh the page. It allows us to hold data, create updated versions of data while maintaining the original data. It allows for more complex building with the use of components and creates cleaner code that is easier to test and troubleshoot.
+    ReactJS is a solution for large scale web applications. It allows the state of data on a page to be changed without constantly having to refresh the page. It allows us to hold data, create updated versions of data while maintaining the original data. It allows for more complex building with the use of components and creates cleaner code that is easier to test and troubleshoot.
 
 - [ ] What does it mean to _think_ in react?
 
-Thinking in React involves seeing a page as a collection of independent and reusable components. We are able to pass information from one component to another. It also helps us to see elements of the DOM as components that we can change. 
+    Thinking in React involves seeing a page as a collection of independent and reusable components. We are able to pass information from one component to another. It also helps us to see elements of the DOM as components that we can change. 
 
 - [ ] Describe state.
-State is how the data is being held in the components and how we want to change them. 
+
+    State is how the data is being held in the components and how we want to change them. 
 
 - [ ] Describe props.
-Props are information that gets passed among the components. 
+
+    Props are information that gets passed among the components. 
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-Side effects are the way that we build an app to do more than one thing at once or in series. A side effect is capable of holding information and the process by which we would like to change that information until after another process has completed. We use useEffect to sync props and useState to pass props. 
+
+    Side effects are the way that we build an app to do more than one thing at once or in series. A side effect is capable of holding information and the process by which we would like to change that information until after another process has completed. We use useEffect to sync props and useState to pass props. 
 
 ## Project Set Up
 
